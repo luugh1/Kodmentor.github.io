@@ -1,0 +1,249 @@
+:root {
+  --color-tone-1: #131313;
+  --color-tone-2: #434343;
+  --color-tone-3: #acacac;
+  --color-tone-4: #e4e4e4;
+  --color-tone-5: #f2f2f2;
+  --color-tone-6: #f8f8f8;
+  --color-tone-7: #ffffff;
+
+  --color-danger-content: #ea0027;
+  --color-success-content: #46d160;
+  --color-global-black: #000000;
+  --color-global-white: #ffffff;
+  --color-global-orangered: #d93900;
+  --color-global-alienblue: #0079d3;
+  --color-global-darkblue: #1d2535;
+
+  --font-body: 0.875rem;
+  --font-small: 0.75rem;
+  --font-code: 0.875rem;
+  --font-subheading: 0.75rem;
+  --font-label: 0.625rem;
+
+  --elevation-xs: 0 0.0625rem 0.125rem 0 #00000040;
+  --elevation-sm: 0 0.0625rem 0.25rem 0 #00000026, 0 0.25rem 0.25rem 0 #00000026;
+  --elevation-md: 0 0.25rem 0.5rem 0 #0000001a, 0 0.375rem 0.75rem 0 #00000040;
+  --elevation-lg: 0 0.75rem 0.75rem 0 #00000026, 0 1rem 2rem 0 #00000040;
+  --elevation-focus-ring: 0 0 0 0.25rem;
+
+  --size-2xs: 0.25rem;
+  --size-xs: 0.5rem;
+  --size-sm: 0.75rem;
+  --size-md: 1rem;
+  --size-lg: 1.5rem;
+  --size-xl: 2rem;
+  --size-2xl: 3rem;
+  --size-3xl: 4rem;
+  --size-4xl: 6rem;
+  --size-5xl: 8rem;
+
+  --header-height: 3.5rem;
+
+  --s-full: 97.2307692rem;
+
+  --border-radius-1: var(--size-2xs);
+  --border-radius-2: var(--size-xs);
+  --border-radius-3: var(--size-md);
+
+  --size-button-lg-h: 3.375rem;
+  --size-button-md-h: 2.75rem;
+  --size-button-sm-h: 2.125rem;
+  --size-button-xs-h: 1.375rem;
+
+  --color-brand-background: #d93900;
+  --color-brand-background-hover: #ae2c00;
+  --color-brand-onBackground: #ffffff;
+
+  --color-danger-background: #eb001f;
+  --color-danger-background-disabled: #fdb3a4;
+  --color-danger-background-hover: #bc0117;
+  --color-danger-background-weaker: #fbdbd4;
+  --color-danger-content: #bc0117;
+  --color-danger-content-default: #ffffff;
+  --color-danger-content-hover: #90000f;
+  --color-danger-onBackground: #ffffff;
+  --color-danger-plain: #bc0117;
+  --color-danger-plain-hover: #90000f;
+
+  --color-neutral-background: #ffffff;
+  --color-neutral-background-container: #f6f8f9;
+  --color-neutral-background-container-strong: #eef1f3;
+  --color-neutral-background-gilded: #fdf7ee;
+  --color-neutral-background-gilded-hover: #fcefd9;
+  --color-neutral-background-hover: #f6f8f9;
+  --color-neutral-background-medium: #f8f8f8;
+  --color-neutral-background-pinned: #ffffff;
+  --color-neutral-background-selected: #e5ebee;
+  --color-neutral-background-strong: #ffffff;
+  --color-neutral-background-strong-hover: #f6f8f9;
+  --color-neutral-background-weak: #f6f8f9;
+  --color-neutral-background-weak-hover: #eef1f3;
+
+  --color-neutral-border: rgba(0, 0, 0, 0.2);
+  --color-neutral-border-medium: rgba(0, 0, 0, 0.5);
+  --color-neutral-border-strong: #181c1f;
+  --color-neutral-border-weak: rgba(0, 0, 0, 0.1);
+  --color-neutral-content: #333d42;
+  --color-neutral-content-disabled: #d6d6d6;
+  --color-neutral-content-strong: #181c1f;
+  --color-neutral-content-weak: #5c6c74;
+  --color-offline: #767676;
+  --color-online: #01a816;
+  --color-opacity-08: #13131314;
+  --color-opacity-50: #00000080;
+  --color-opacity-highlight: linear-gradient(#0a2f6c1a, var(--color-tone-6));
+
+  --color-primary: #115bca;
+  --color-primary-background: #0a449b;
+  --color-primary-background-hover: #0a2f6c;
+  --color-primary-background-selected: #0a1a3f;
+  --color-primary-border: #0a449b;
+  --color-primary-border-hover: #0a2f6c;
+  --color-primary-hover: #0a449b;
+  --color-primary-onBackground: #ffffff;
+  --color-primary-onBackground-selected: #ffffff;
+  --color-primary-plain: #0a449b;
+  --color-primary-plain-hover: #0a2f6c;
+  --color-primary-plain-visited: #7600a3;
+  --color-primary-visited: #9b00d4;
+
+  --color-secondary: #ffc745;
+  --color-secondary-background: #e5ebee;
+  --color-secondary-background-hover: #dbe4e9;
+  --color-secondary-background-selected: #c9d7de;
+  --color-secondary-hover: #000000;
+  --color-secondary-onBackground: #000000;
+  --color-secondary-plain: #181c1f;
+  --color-secondary-plain-hover: #000000;
+  --color-secondary-plain-weak: #5c6c74;
+  --color-secondary-weak: #576f76;
+  --color-success-background: #008a10;
+  --color-success-background-hover: #016e0b;
+  --color-success-content: #016e0b;
+  --color-success-hover: #005306;
+  --color-success-onBackground: #ffffff;
+  --color-success-plain: #016e0b;
+  --color-success-plain-hover: #005306;
+
+  --color-warning-background: #b78800;
+  --color-warning-background-hover: #977000;
+  --color-warning-content: #785800;
+  --color-warning-content-hover: #5b4200;
+  --color-warning-onBackground: #000000;
+  --color-a-default: var(--color-primary);
+  --color-a-hover: var(--color-primary-hover);
+  --color-a-visited: var(--color-primary-visited);
+
+  --color-button-overlay-focus: transparent;
+  --color-button-overlay-active: transparent;
+  --color-button-border-width: tomato;
+  --color-button-border-width-activated: tomato;
+  --color-button-primary-background-hover: var(
+    --color-primary-background-hover
+  );
+  --color-button-primary-background-activated: var(
+    --color-primary-background-selected
+  );
+  --color-button-primary-background-disabled: var(
+    --color-interactive-background-disabled
+  );
+  --color-button-primary-border-hover: var(--color-primary-background);
+  --color-button-primary-border-active: var(--color-primary-background-hover);
+  --color-button-primary-text-disabled: var(
+    --color-interactive-content-disabled
+  );
+  --color-button-primary-text-activated: var(
+    --color-primary-onBackground-selected
+  );
+  --color-button-secondary-background: var(--color-secondary-background);
+  --color-button-secondary-background-focus: var(--color-secondary-background);
+  --color-button-secondary-background-hover: var(
+    --color-secondary-background-hover
+  );
+  --color-button-secondary-background-disabled: var(
+    --color-interactive-background-disabled
+  );
+  --color-button-secondary-background-activated: var(
+    --color-secondary-background-selected
+  );
+  --color-button-secondary-border: transparent;
+  --color-button-secondary-border-hover: var(--color-secondary-background);
+  --color-button-secondary-border-active: var(
+    --color-secondary-background-hover
+  );
+  --color-button-secondary-border-activated: transparent;
+  --color-button-secondary-border-disabled: transparent;
+  --color-button-secondary-text: var(--color-secondary-onBackground);
+  --color-button-secondary-text-disabled: var(
+    --color-interactive-content-disabled
+  );
+  --color-button-secondary-text-activated: var(--color-secondary-onBackground);
+  --color-button-tertiary-background: transparent;
+  --color-button-tertiary-background-focus: transparent;
+  --color-button-tertiary-background-hover: var(
+    --color-secondary-background-hover
+  );
+  --color-button-tertiary-background-disabled: transparent;
+  --color-button-tertiary-background-activated: var(--color-neutral-content);
+  --color-button-tertiary-border-hover: var(--color-secondary-background);
+  --color-button-tertiary-border-active: var(
+    --color-secondary-background-hover
+  );
+  --color-button-tertiary-text: var(--color-neutral-content-strong);
+  --color-button-tertiary-text-disabled: var(--color-neutral-content-disabled);
+  --color-button-tertiary-text-activated: var(--color-neutral-background);
+  --color-button-plain-background-hover: var(
+    --color-secondary-background-hover
+  );
+  --color-button-plain-background-disabled: transparent;
+  --color-button-plain-background-activated: var(
+    --color-secondary-background-selected
+  );
+  --color-button-plain-border-hover: var(--color-secondary-background);
+  --color-button-plain-border-active: var(--color-secondary-background-hover);
+  --color-button-plain-text: var(--color-secondary-plain);
+  --color-button-plain-text-hover: var(--color-secondary-plain-hover);
+  --color-button-plain-text-disabled: var(--color-interactive-content-disabled);
+  --color-button-plain-text-activated: var(--color-secondary-onBackground);
+  --color-button-primary-border-activated: var(--color-primary-background);
+  --color-button-plain-inverted-background-activated: var(
+    --color-neutral-content
+  );
+
+  --color-divider-default: var(--color-neutral-border);
+  --color-input-secondary: var(--color-secondary-background);
+  --color-input-secondary-hover: var(--color-secondary-background-hover);
+  --color-input-border: transparent;
+  --color-input-bordered: transparent;
+  --color-input-bordered-hover: var(--color-neutral-background-hover);
+  --color-input-secondary-text: var(--color-secondary-onBackground);
+  --color-input-bordered-text: var(--color-secondary-plain);
+  --color-input-helper-text: var(--color-neutral-content-weak);
+  --color-input-pressed: var(--color-interactive-pressed);
+  --color-input-radio: var(--color-secondary-plain-weak);
+  --color-input-radio-hover: var(--color-neutral-content-strong);
+  --color-label-default: var(--color-neutral-content-weak);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--color-tone-1);
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI Adjusted",
+    "Segoe UI", "Liberation Sans", sans-serif;
+}
+
+button {
+  border: none;
+}
+
+ul,
+ol {
+  margin: 0;
+  list-style: none;
+}
+

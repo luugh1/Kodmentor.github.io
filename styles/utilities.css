@@ -1,0 +1,160 @@
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-1 {
+  margin-bottom: var(--size-2xs);
+}
+
+.mb-2 {
+  margin-bottom: var(--size-xs);
+}
+.mb-3 {
+  margin-bottom: var(--size-md);
+}
+
+.mb-4 {
+  margin-bottom: var(--size-xl);
+}
+
+.m-1 {
+  margin: var(--size-2xs);
+}
+.m-2 {
+  margin: var(--size-xs);
+}
+.m-3 {
+  margin: var(--size-md);
+}
+.m-4 {
+  margin: var(--size-xl);
+}
+.mx-1 {
+  margin-left: var(--size-2xs);
+}
+
+.mx-2 {
+  margin-left: var(--size-2xs);
+}
+.mx-3 {
+  margin-left: var(--size-md);
+}
+.mx-4 {
+  margin-left: var(--size-xl);
+}
+.my-1 {
+  margin-right: var(--size-2xs);
+}
+.my-2 {
+  margin-right: var(--size-xs);
+}
+
+.my-3 {
+  margin-right: var(--size-md);
+}
+
+.my-4 {
+  margin-right: var(--size-xl);
+}
+.m-0 {
+  margin: 0;
+}
+
+.pb-1 {
+  padding-bottom: var(--size-2xs);
+}
+
+.pb-2 {
+  padding-bottom: var(--size-xs);
+}
+.pb-3 {
+  padding-bottom: var(--size-md);
+}
+.pb-4 {
+  padding-bottom: var(--size-xl);
+}
+
+.p-1 {
+  padding-bottom: var(--size-2xs);
+}
+.p-2 {
+  padding-bottom: var(--size-xs);
+}
+.p-3 {
+  padding-bottom: var(--size-md);
+}
+.p-4 {
+  padding-bottom: var(--size-xl);
+}
+
+.pt-1 {
+  padding-top: var(--size-2xs);
+}
+.pt-2 {
+  padding-top: var(--size-xs);
+}
+.pt-3 {
+  padding-top: var(--size-md);
+}
+.pt-4 {
+  padding-top: var(--size-xl);
+}
+.p-1 {
+  padding: var(--size-2xs);
+}
+.p-2 {
+  padding: var(--size-xs);
+}
+.p-3 {
+  padding: var(--size-md);
+}
+.p-4 {
+  padding: var(--size-xl);
+}
+.px-1 {
+  padding-left: var(--size-2xs);
+}
+.px-2 {
+  padding-left: var(--size-xs);
+}
+.px-3 {
+  padding-left: var(--size-md);
+}
+.px-4 {
+  padding-left: var(--size-xl);
+}
+.py-1 {
+  padding-right: var(--size-2xs);
+}
+.py-2 {
+  padding-right: var(--size-xs);
+}
+.py-3 {
+  padding-right: var(--size-md);
+}
+.py-4 {
+  padding-right: var(--size-xl);
+}
+.p-0 {
+  padding: 0;
+}
+
+.img-rounded {
+  height: 100%;
+  border-radius: 50%;
+}
+
+.w-100 {
+  width: 100%;
+}

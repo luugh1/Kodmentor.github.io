@@ -1,0 +1,31 @@
+@media screen and (min-width: 576px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    min-height: calc(100vh - var(--header-height));
+  }
+}
+@media screen and (min-width: 576px) {
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .container {
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    width: var(--s-full);
+    margin: 0 auto;
+    flex-direction: row;
+  }
+}

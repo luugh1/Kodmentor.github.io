@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="styles/normalize.css" />
+  <link rel="stylesheet" href="./styles/root.css" />
+  <link rel="stylesheet" href="./styles/layout.css" />
+  <link rel="stylesheet" href="./styles/mentorship.css" />
+  <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+  <link rel="stylesheet" href="./styles/global-header.css" />
+  <link rel="stylesheet" href="./styles/utilities.css" />
+</head>
+
+<body>
+  <!-- Header block -->
+  <header class="header flex-center">
+    <div class="header-wrapper flex">
+      <div class="header-logo-wrapper">
+        <a href="#" class="logo-link">
+          <img class="logo-img" src="./images/logo/png/logo-no-background.png" alt="website logo" />
+        </a>
+      </div>
+      <nav class="header--nav flex">
+        <ul class="header--nav-links-wrapper flex m-0">
+          <li class="header--nav-link active">
+            <a href="/mentorship.html">Home</a>
+          </li>
+          <li class="header--nav-link"><a href="#">Mentorship</a></li>
+          <li class="header--nav-link"><a href="#">Blogs</a></li>
+        </ul>
+      </nav>
+      <search class="header--search">
+        <form class="header--search-form w-100">
+          <div class="header--search-form-wrapper flex">
+            <img width="18" src="./images/icons/search.svg" alt="search icon" />
+            <input name="global-search" id="global-search" placeholder="Search Kodmentor"
+              class="header--search-form-input w-100" />
+          </div>
+        </form>
+      </search>
+      <ul class="header--profile-section flex m-0">
+        <li class="header--profile-section-item">
+          <div class="header--profile-section-item-wrapper">
+            <button class="header--profile-section-item-btn">
+              <img src="./images/profile Avater.jpg" alt="profile picture" class="img-rounded" width="18" />
+              <span>Me <i class="lni lni-chevron-down"></i></span>
+            </button>
+
+            <div hidden></div>
+          </div>
+        </li>
+
+        <li class="header--profile-section-item">
+          <div class="header--profile-section-item-wrapper">
+            <button class="header--profile-section-item-btn">
+              <img src="./images/icons/notification.svg" alt="profile picture" class="img-rounded" width="18" />
+              <span>notifications</span>
+            </button>
+          </div>
+        </li>
+
+        <li class="header--profile-section-item">
+          <div class="header--profile-section-item-wrapper">
+            <button class="header--profile-section-item-btn">
+              <img src="./images/icons/messaging.svg" alt="messages icon" class="img-rounded" width="18" />
+              <span>Messages</span>
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="left-panel">
+      <ul class="left-panel-top-nav">
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/home.svg" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Home</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/mentoring.png" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Mentoring</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/question.png" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Questions</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/blogger.png" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Blog</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/hastag.png" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Topics</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/group.png" alt="home icon" class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Users</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-top-nav--item">
+          <a href="#" class="left-panel-top-nav--item-a">
+            <div class="left-panel-top-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/connection.png" alt="home icon"
+                class="left-panel-top-nav--item-img" />
+              <span class="left-panel-top-nav--item-a-span">Connections</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+      <ul class="left-panel-bottom-nav flex">
+        <li class="left-panel-bottom-nav--item">
+          <a href="#" class="left-panel-bottom-nav--item-a">
+            <div class="left-panel-bottom-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/settings.png" alt="home icon"
+                class="left-panel-bottom-nav--item-img" />
+              <span class="left-panel-bottom-nav--item-a-span">Settings</span>
+            </div>
+          </a>
+        </li>
+        <li class="left-panel-bottom-nav--item">
+          <a href="#" class="left-panel-bottom-nav--item-a">
+            <div class="left-panel-bottom-nav--item-a-wrapper flex">
+              <img width="18" src="./images/icons/user.png" alt="home icon" class="left-panel-bottom-nav--item-img" />
+              <span class="left-panel-bottom-nav--item-a-span">Profile</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <section class="questions-top">
+        <div class="questions-top--action">
+          <p>Featured Questions</p>
+          <button type="button"><a href="#">Ask a Question</a></button>
+        </div>
+        <div class="questions-top-filter">
+          <div class="questions-top-filter--div">
+            <input class="question-category" type="radio" id="html" name="fav_language" value="HTML" checked>
+            <label for="html">JavaScript</label><br>
+          </div>
+          
+          <div class="questions-top-filter--div">
+            <input class="question-category" type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">Java</label>
+          </div>
+
+          <div  class="questions-top-filter--div">
+            <input class="question-category" type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">#Algorithms</label>
+          </div>
+         
+      
+        </div>
+
+      </section>
+      <ul class="questions">
+        <li class="questions--item">
+          <div class="questions--item-a-wrapper">
+            <div class="questions--description-wrapper">
+              <p class="questions--description-hashtags">
+                <a href="#"><span>#JavaScript</span></a>
+                <a href="#"><span>#Problem Solving</span></a>
+                <a href="#"><span>#Algorithms</span></a>
+
+              </p>
+              <p class="questions--item-description-answer">
+                <span>1 verified✅</span>
+                <span>10 unverified</span>
+              </p>
+            </div>
+
+            <a href="#" class="questions--item-a">
+              <p class="questions--item-p">
+                Java: write a method that takes 3 integer as parameters, return true if they are equal, return false
+                otherwise without using if statement
+
+              </p>
+            </a>
+            <div class="questions-engagement">
+              <p class="questions-engagement--p">
+                <span class="questions-engagement--p-span">7 Views</span>
+                <span class="questions-engagement--p-span">•16 Answers</span>
+                <span class="questions-engagement--p-span">•7 upvotes</span>
+              </p>
+
+              <div class="questions-user">
+                <div class="questions-user--img-wrapper">
+                  <img src="./images/mentor7.jpg" class="img-rounded" alt="questions user picture">
+                  <div class="questions-user-content" hidden></div>
+                </div>
+                <p class="questions-user--p">
+                  <span class="questions-user--p-name">Rob Mensching</span>
+
+                  <span class="questions-user-p-occupation">•Software Developer</span>
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </li>
+
+        <li class="questions--item">
+          <div class="questions--item-a-wrapper">
+            <div class="questions--description-wrapper">
+              <p class="questions--description-hashtags">
+                <a href="#"><span>#JavaScript</span></a>
+                <a href="#"><span>#Problem Solving</span></a>
+                <a href="#"><span>#Algorithms</span></a>
+
+              </p>
+              <p class="questions--item-description-answer">
+                <span>1 verified✅</span>
+                <span>10 unverified</span>
+              </p>
+            </div>
+
+            <a href="#" class="questions--item-a">
+              <p class="questions--item-p">
+                Java: write a method that takes 3 integer as parameters, return true if they are equal, return false
+                otherwise without using if statement
+
+              </p>
+            </a>
+            <div class="questions-engagement">
+              <p class="questions-engagement--p">
+                <span class="questions-engagement--p-span">7 Views</span>
+                <span class="questions-engagement--p-span">•16 Answers</span>
+                <span class="questions-engagement--p-span">•7 upvotes</span>
+              </p>
+
+              <div class="questions-user">
+                <div class="questions-user--img-wrapper">
+                  <img src="./images/mentor7.jpg" class="img-rounded" alt="questions user picture">
+                  <div class="questions-user-content" hidden></div>
+                </div>
+                <p class="questions-user--p">
+                  <span class="questions-user--p-name">Rob Mensching</span>
+
+                  <span class="questions-user-p-occupation">•Software Developer</span>
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </li>
+        <li class="questions--item">
+          <div class="questions--item-a-wrapper">
+            <div class="questions--description-wrapper">
+              <p class="questions--description-hashtags">
+                <a href="#"><span>#JavaScript</span></a>
+                <a href="#"><span>#Problem Solving</span></a>
+                <a href="#"><span>#Algorithms</span></a>
+
+              </p>
+              <p class="questions--item-description-answer">
+                <span>1 verified✅</span>
+                <span>10 unverified</span>
+              </p>
+            </div>
+
+            <a href="#" class="questions--item-a">
+              <p class="questions--item-p">
+                Java: write a method that takes 3 integer as parameters, return true if they are equal, return false
+                otherwise without using if statement
+
+              </p>
+            </a>
+            <div class="questions-engagement">
+              <p class="questions-engagement--p">
+                <span class="questions-engagement--p-span">7 Views</span>
+                <span class="questions-engagement--p-span">•16 Answers</span>
+                <span class="questions-engagement--p-span">•7 upvotes</span>
+              </p>
+
+              <div class="questions-user">
+                <div class="questions-user--img-wrapper">
+                  <img src="./images/mentor7.jpg" class="img-rounded" alt="questions user picture">
+                  <div class="questions-user-content" hidden></div>
+                </div>
+                <p class="questions-user--p">
+                  <span class="questions-user--p-name">Rob Mensching</span>
+
+                  <span class="questions-user-p-occupation">•Software Developer</span>
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+        </li>
+      </ul>
+    </main>
+    <aside class="right-panel">
+
+      <ul class="top-mentors flex">
+        <h4 class="top-mentors--header">Top Mentors</h3>
+          <li class="top-mentors--item">
+            <a href="#" class="top-mentors--item-a">
+              <div class="top-mentors--item-a-wrapper flex">
+                <div class="top-mentors--item-a-img-wrapper">
+                  <img class="top-mentors--item-a-img img-rounded" src="./images/mentor1.jpg" alt="mentor profile" />
+                </div>
+                <p class="top-mentors--item-a-description m-0">
+                  <span class="top-mentors--item-a-description-name">John Snow</span>
+                  <span class="top-mentors--item-a-description-bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus luctus urna sed urna ultricies ac tempor dui
+                    sagittis. In condimentum facilisis porta.
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+
+          <li class="top-mentors--item">
+            <a href="#" class="top-mentors--item-a">
+              <div class="top-mentors--item-a-wrapper flex">
+                <div class="top-mentors--item-a-img-wrapper">
+                  <img class="top-mentors--item-a-img img-rounded" src="./images/mentor2.jpg" alt="mentor profile" />
+                </div>
+                <p class="top-mentors--item-a-description m-0">
+                  <span class="top-mentors--item-a-description-name">John Snow</span>
+                  <span class="top-mentors--item-a-description-bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus luctus urna sed urna ultricies ac tempor dui
+                    sagittis. In condimentum facilisis porta.
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="top-mentors--item">
+            <a href="#" class="top-mentors--item-a">
+              <div class="top-mentors--item-a-wrapper flex">
+                <div class="top-mentors--item-a-img-wrapper">
+                  <img class="top-mentors--item-a-img img-rounded" src="./images/mentor4.jpg" alt="mentor profile" />
+                </div>
+                <p class="top-mentors--item-a-description m-0">
+                  <span class="top-mentors--item-a-description-name">John Snow</span>
+                  <span class="top-mentors--item-a-description-bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus luctus urna sed urna ultricies ac tempor dui
+                    sagittis. In condimentum facilisis porta.
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+          <li class="top-mentors--item">
+            <a href="#" class="top-mentors--item-a">
+              <div class="top-mentors--item-a-wrapper flex">
+                <div class="top-mentors--item-a-img-wrapper">
+                  <img class="top-mentors--item-a-img img-rounded" src="./images/mentor5.jpg" alt="mentor profile" />
+                </div>
+                <p class="top-mentors--item-a-description m-0">
+                  <span class="top-mentors--item-a-description-name">John Snow</span>
+                  <span class="top-mentors--item-a-description-bio">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Vivamus luctus urna sed urna ultricies ac tempor dui
+                    sagittis. In condimentum facilisis porta.
+                  </span>
+                </p>
+              </div>
+            </a>
+          </li>
+      </ul>
+
+      <ul class="top-mentor-areas">
+        <h4 class="top-mentor-areas--header">Top Mentor Areas</h4>
+        <li class="top-mentor-areas--item">
+          <a href="#">
+            <p class="top-mentor-areas--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna
+              sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.</p>
+          </a>
+
+        </li>
+        <li class="top-mentor-areas--item">
+          <a href="#">
+            <p class="top-mentor-areas--p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna
+              sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.</p>
+          </a>
+
+        </li>
+
+
+      </ul>
+    </aside>
+  </div>
+  <footer></footer>
+</body>
+
+</html>
