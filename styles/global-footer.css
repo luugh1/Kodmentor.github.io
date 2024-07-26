@@ -1,0 +1,130 @@
+footer {
+  background-color: var(--color-neutral-background-container);
+  color: var(--color-neutral-content);
+  padding: 40px 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: var(--s-full);
+  margin: 0 auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-social,
+.footer-newsletter {
+  flex: 1 1 var(--size-sm);
+}
+
+.footer-about h3,
+.footer-links h3,
+.footer-social h3,
+.footer-newsletter h3 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  border-bottom: 2px solid var(--color-secondary);
+  display: inline-block;
+}
+
+.footer-about p,
+.footer-links ul,
+.footer-social .social-icons,
+.footer-newsletter form {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: var(--color-secondary);
+}
+
+.footer-social .social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  transition: transform 0.3s;
+}
+
+.footer-social .social-icons a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-social .social-icons a:hover {
+  transform: scale(1.1);
+}
+
+.footer-newsletter form {
+  display: flex;
+  align-items: center;
+}
+
+.footer-newsletter input[type="email"] {
+  padding: var(--size-sm);
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  flex: 1;
+}
+
+.footer-newsletter button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  background-color: var(--color-secondary);
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-newsletter button:hover {
+  background-color: var(--color-primary);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-about,
+  .footer-links,
+  .footer-social,
+  .footer-newsletter {
+    flex: 1 1 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .footer-newsletter form {
+    flex-direction: column;
+  }
+
+  .footer-newsletter input[type="email"] {
+    border-radius: var(--border-1);
+    margin-bottom: var(--size-sm);
+  }
+
+  .footer-newsletter button {
+    border-radius: var(--border-1);
+  }
+}

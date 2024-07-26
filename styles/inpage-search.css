@@ -1,0 +1,25 @@
+.header--search {
+  flex: 1;
+}
+
+.inpage-search-form {
+  padding: var(--size-xs);
+  position: relative;
+}
+
+.inpage-search-form-input {
+  outline: none;
+  border: none;
+  font-size: var(--size-sm);
+}
+
+.inpage-search-form-wrapper {
+  border: 1px solid var(--color-neutral-border);
+  padding: var(--size-xs);
+  border-radius: var(--border-radius-1);
+}
+
+.inpage-search-form-wrapper:focus-within {
+  outline: 2px solid var(--color-primary);
+  outline-offset: var(--size-2xs);
+}

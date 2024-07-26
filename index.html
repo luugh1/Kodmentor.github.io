@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/root.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+    <link rel="stylesheet" href="./styles/questions.css" />
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="./styles/global-header.css" />
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/global-footer.css">
+    <link rel="stylesheet" href="./styles/utilities.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+</head>
+
+<body>
+    <!-- Header block -->
+    <header class="header flex-center">
+        <div class="header-wrapper flex">
+          <div class="header-logo-wrapper">
+            <a href="#" class="logo-link">
+              <img
+                class="logo-img"
+                src="./images/logo/png/logo-no-background.png"
+                alt="website logo"
+              />
+            </a>
+          </div>
+          <nav class="header--nav flex">
+            <ul class="header--nav-links-wrapper flex m-0">
+              <li class="header--nav-link active">
+                <a href="/index.html">Home</a>
+              </li>
+              <li class="header--nav-link">
+                <a href="/index.html">Mentorship</a>
+              </li>
+              <li class="header--nav-link"><a href="/blogs.html">Blogs</a></li>
+            </ul>
+          </nav>
+          <search class="header--search">
+            <form class="header--search-form w-100">
+              <div class="header--search-form-wrapper flex">
+                <img
+                  width="18"
+                  src="./images/icons/search.svg"
+                  alt="search icon"
+                />
+                <input
+                  name="global-search"
+                  id="global-search"
+                  placeholder="Search Kodmentor"
+                  class="header--search-form-input w-100"
+                />
+                <div class="header--search-dropdown">
+                  <p></p>
+                  <button class="header--search-dropdown-btn" type="button">
+                    Ask A Question
+                  </button>
+                </div>
+              </div>
+            </form>
+          </search>
+          <ul class="header--profile-section flex m-0">
+            <li class="header--profile-section-item" hidden>
+              <div class="header--profile-section-item-wrapper">
+                <button class="header--profile-section-item-btn">
+                  <img
+                    src="./images/profile Avater.jpg"
+                    alt="profile picture"
+                    class="img-rounded"
+                    width="18"
+                  />
+                  <span>Me <i class="lni lni-chevron-down"></i></span>
+                </button>
+  
+                <div hidden></div>
+              </div>
+            </li>
+  
+  
+            <li class="header--profile-section-item">
+              <div class="header--profile-section-item-wrapper">
+               
+                  <a class="header--profile-section-item-btn"  href="/messages.html">
+                    <img
+                      src="./images/icons/messaging.svg"
+                      alt="messages icon"
+                      class="img-rounded"
+                      width="18"
+                    />
+                    <span>Messages</span>
+                  </a>
+                
+              </div>
+            </li>
+            <li class="header--profile-section-item">
+                <div class="header--profile-section-item-wrapper">
+                 
+                    <a class="header--profile-section-item-btn"  href="/login.html">
+                      <img
+                        src="./images/icons/login.svg"
+                        alt="messages icon"
+                        class="img-rounded"
+                        width="18"
+                      />
+                      <span>Login</span>
+                    </a>
+                  
+                </div>
+              </li>
+
+              <li class="header--profile-section-item">
+                <div class="header--profile-section-item-wrapper">
+                 
+                    <a class="header--profile-section-item-btn"  href="/signup.html">
+                      <img
+                        src="./images/icons/signup.svg"
+                        alt="messages icon"
+                        class="img-rounded"
+                        width="18"
+                      />
+                      <span>Signup</span>
+                    </a>
+                  
+                </div>
+              </li>
+          </ul>
+        </div>
+      </header>
+
+    <div class="container">
+        <aside class="left-panel">
+            <ul class="left-panel-top-nav">
+                <li class="left-panel-top-nav--item">
+                    <a href="/index.html" class="left-panel-top-nav--item-a">
+                        <div class="left-panel-top-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/home.svg" alt="home icon"
+                                class="left-panel-top-nav--item-img" />
+                            <span class="left-panel-top-nav--item-a-span">Home</span>
+                        </div>
+                    </a>
+                </li>
+               
+                <li class="left-panel-top-nav--item">
+                    <a href="/questions.html" class="left-panel-top-nav--item-a">
+                        <div class="left-panel-top-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/question.png" alt="home icon"
+                                class="left-panel-top-nav--item-img" />
+                            <span class="left-panel-top-nav--item-a-span">Questions</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="left-panel-top-nav--item">
+                    <a href="/blogs.html" class="left-panel-top-nav--item-a">
+                        <div class="left-panel-top-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/blogger.png" alt="home icon"
+                                class="left-panel-top-nav--item-img" />
+                            <span class="left-panel-top-nav--item-a-span">Blog</span>
+                        </div>
+                    </a>
+                </li>
+             
+                <li class="left-panel-top-nav--item">
+                    <a href="/users.html" class="left-panel-top-nav--item-a">
+                        <div class="left-panel-top-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/group.png" alt="home icon"
+                                class="left-panel-top-nav--item-img" />
+                            <span class="left-panel-top-nav--item-a-span">Users</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="left-panel-top-nav--item">
+                    <a href="connections.html" class="left-panel-top-nav--item-a">
+                        <div class="left-panel-top-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/connection.png" alt="home icon"
+                                class="left-panel-top-nav--item-img" />
+                            <span class="left-panel-top-nav--item-a-span">Connections</span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="left-panel-bottom-nav flex">
+                <li class="left-panel-bottom-nav--item">
+                    <a href="/settings.html" class="left-panel-bottom-nav--item-a">
+                        <div class="left-panel-bottom-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/settings.png" alt="home icon"
+                                class="left-panel-bottom-nav--item-img" />
+                            <span class="left-panel-bottom-nav--item-a-span">Settings</span>
+                        </div>
+                    </a>
+                </li>
+                <li class="left-panel-bottom-nav--item">
+                    <a href="" class="left-panel-bottom-nav--item-a">
+                        <div class="left-panel-bottom-nav--item-a-wrapper flex">
+                            <img width="18" src="./images/icons/user.png" alt="home icon"
+                                class="left-panel-bottom-nav--item-img" />
+                            <span class="left-panel-bottom-nav--item-a-span">Profile</span>
+                        </div>
+                    </a>
+                </li>
+               
+            </ul>
+        </aside>
+
+        <main class="main-content">
+            <section class="hero-section flex">
+                <div class="hero-section-image-wrapper">
+                    <img src="./images/illustrations/Job-Interview.svg" width="600" height="400">
+                </div>
+                <div class="hero-section-text">
+
+                    <h1>Find Answers, Share Knowledge, Connect with Mentors</h1>
+                    <p>Ask questions, find answers, and connect with experts in the field.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-md btn-primary">Ask a Question</button>
+                        <button class="btn btn-md btn-primary">Find a Mentor</button>
+                        <button class="btn btn-md btn-primary">Join as a Mentor</button>
+                    </div>
+
+                </div>
+            </section>
+            <section class="featured-questions">
+                <h2>Popular Questions</h2>
+                <ul class="questions">
+                    <li class="questions--item">
+                        <div class="questions--item-a-wrapper">
+                            <div class="questions--description-wrapper">
+                                <p class="questions--description-hashtags">
+                                    <a href="#"><span>#JavaScript</span></a>
+                                    <a href="#"><span>#Problem Solving</span></a>
+                                    <a href="#"><span>#Algorithms</span></a>
+
+                                </p>
+                                <p class="questions--item-description-answer">
+                                    <span>1 verified✅</span>
+                                    <span>10 unverified</span>
+                                </p>
+                            </div>
+
+                            <a href="#" class="questions--item-a">
+                                <p class="questions--item-p">
+                                    Java: write a method that takes 3 integer as parameters, return true if they are
+                                    equal, return false
+                                    otherwise without using if statement
+
+                                </p>
+                            </a>
+                            <div class="questions-engagement">
+                                <p class="questions-engagement--p">
+                                    <span class="questions-engagement--p-span">7 Views</span>
+                                    <span class="questions-engagement--p-span">•16 Answers</span>
+                                    <span class="questions-engagement--p-span">•7 upvotes</span>
+                                </p>
+
+                                <div class="questions-user">
+                                    <div class="questions-user--img-wrapper">
+                                        <img src="./images/mentor7.jpg" class="img-rounded"
+                                            alt="questions user picture">
+                                        <div class="questions-user-content" hidden></div>
+                                    </div>
+                                    <p class="questions-user--p">
+                                        <span class="questions-user--p-name">Anita Cook</span>
+
+                                        <span class="questions-user-p-occupation">•Software Developer</span>
+                                    </p>
+
+
+                                </div>
+                            </div>
+
+                    </li>
+
+                    <li class="questions--item">
+                        <div class="questions--item-a-wrapper">
+                            <div class="questions--description-wrapper">
+                                <p class="questions--description-hashtags">
+                                    <a href="#"><span>#JavaScript</span></a>
+                                    <a href="#"><span>#Problem Solving</span></a>
+                                    <a href="#"><span>#Algorithms</span></a>
+
+                                </p>
+                                <p class="questions--item-description-answer">
+                                    <span>1 verified✅</span>
+                                    <span>10 unverified</span>
+                                </p>
+                            </div>
+
+                            <a href="#" class="questions--item-a">
+                                <p class="questions--item-p">
+                                    Java: write a method that takes 3 integer as parameters, return true if they are
+                                    equal, return false
+                                    otherwise without using if statement
+
+                                </p>
+                            </a>
+                            <div class="questions-engagement">
+                                <p class="questions-engagement--p">
+                                    <span class="questions-engagement--p-span">7 Views</span>
+                                    <span class="questions-engagement--p-span">•16 Answers</span>
+                                    <span class="questions-engagement--p-span">•7 upvotes</span>
+                                </p>
+
+                                <div class="questions-user">
+                                    <div class="questions-user--img-wrapper">
+                                        <img src="./images/mentor7.jpg" class="img-rounded"
+                                            alt="questions user picture">
+                                        <div class="questions-user-content" hidden></div>
+                                    </div>
+                                    <p class="questions-user--p">
+                                        <span class="questions-user--p-name">Rob Mensching</span>
+
+                                        <span class="questions-user-p-occupation">•Software Developer</span>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+            </section>
+            <section class="mentors-showcase ">
+                <h2>Top Mentors</h2>
+                <div class="mentors-wrapper flex">
+                    <div class="mentor-profile flex-column">
+                        <div class="mentor-profile--img" style="background-image: url(./images/mentor1.jpg);"></div>
+
+                        <h3>John Doe</h3>
+                        <p>Expert in React and JavaScript</p>
+                        <button class="btn btn-primary btn-md">
+                            <a href="#mentor1">View Profile</a>
+                        </button>
+
+                    </div>
+                    <div class="mentor-profile flex-column">
+                        <div class="mentor-profile--img" style="background-image: url(./images/mentor3.jpg);"></div>
+                        <h3>Jane Smith</h3>
+                        <p>Specialist in CSS and HTML</p>
+                        <button class="btn btn-md btn-primary">
+                            <a href="./images/mentor4.jpg">View Profile</a>
+                        </button>
+
+                    </div>
+                    <div class="mentor-profile flex-column">
+                        <div class="mentor-profile--img" style="background-image: url(./images/mentor4.jpg);"></div>
+                        <h3>Jane Smith</h3>
+                        <p>Specialist in CSS and HTML</p>
+                        <button class="btn btn-md btn-primary">
+                            <a href="./images/mentor4.jpg">View Profile</a>
+                        </button>
+
+                    </div>
+                    <div class="mentor-profile flex-column">
+                        <div class="mentor-profile--img" style="background-image: url(./images/mentor.jpg);"></div>
+                        <h3>Jane Smith</h3>
+                        <p>Specialist in CSS and HTML</p>
+                        <button class="btn btn-md btn-primary">
+                            <a href="./images/mentor4.jpg">View Profile</a>
+                        </button>
+                    </div>
+
+            </section>
+
+            <section class="success-stories">
+                <h2>Success Stories</h2>
+                <div class="stories-wrapper">
+                    <div class="story">
+                        <div class="story-img-wrapper flex-center">
+                            <img src="./images/icons/communication.svg" height="48" width="48">
+                        </div>
+
+                        <p class="story-description flex-column">
+                            <strong>Communicatiion Skills</strong>
+                            <span>
+                                My mentor taught me how to communicate my ideas more effectively, both in writing and
+                                verbally. This improved my teamwork and presentations, leading to better project
+                                outcomes and stronger collaborations
+                            </span>
+                            <strong>-Alex Johnson</strong>
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="story-img-wrapper flex-center">
+                            <img src="./images/icons/networking.svg" height="48" width="48">
+                        </div>
+
+                        <p class="story-description flex-column">
+                            <strong>Networking</strong>
+                            <span>
+                                Connecting with mentors and peers on this platform expanded my professional network
+                                significantly. I landed my current job through a recommendation from a mentor I met here
+                            </span>
+                            <strong>-David Martinez</strong>
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="story-img-wrapper flex-center">
+                            <img src="./images/icons/growth.svg" height="48" width="48">
+                        </div>
+
+                        <p class="story-description flex-column">
+                            <strong>Career Growth</strong>
+                            <span>
+                                Thanks to the mentorship I received, I transitioned from a junior developer to a team
+                                lead in just two years. My mentor's guidance on career planning and skill development
+                                was invaluable.
+                            </span>
+                            <strong>-Emily Thompson</strong>
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="story-img-wrapper flex-center">
+                            <img src="./images/icons/problem-solving.svg" height="48" width="48">
+                        </div>
+
+                        <p class="story-description flex-column">
+                            <strong>Problem Solving</strong>
+                            <span>
+                                I was struggling with a complex coding issue for weeks. My mentor helped me break down
+                                the problem and find an effective solution, which improved my project and my
+                                problem-solving skills.
+                            </span>
+                            <strong>-Lisa Wang</strong>
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+    <!-- Site footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Your go-to platform for finding answers, sharing knowledge, and connecting with mentors in the
+                    development
+                    community.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms of Service</a></li>
+                    <li><a href="#help">Help Center</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#facebook"><img src="./images/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="#twitter"><img src="./images/icons/twitter.svg" alt="Twitter"></a>
+                    <a href="#linkedin"><img src="./images/icons/linkedin.svg" alt="LinkedIn"></a>
+                    <a href="#instagram"><img src="./images/icons/instagram.svg" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-newsletter">
+                <h3>Subscribe to our Newsletter</h3>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

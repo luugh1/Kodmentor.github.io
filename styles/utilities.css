@@ -158,3 +158,29 @@
 .w-100 {
   width: 100%;
 }
+
+.btn {
+  border-radius: var(--border-radius-1);
+  color: var(--color-primary-onBackground);
+  box-shadow: var(--elevation-xs);
+}
+
+.btn-sm {
+  padding: var(--size-xs) var(--size-2xs);
+}
+
+.btn-md {
+  padding: var(--size-xs) var(--size-sm);
+}
+
+.btn-lg {
+  padding: var(--size-xs) var(--size-2sx);
+}
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-global-white);
+}
+
+.text-primary {
+  color: var(--color-success-plain);
+}

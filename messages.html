@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Messages</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/root.css" />
+    <link rel="stylesheet" href="./styles/layout.css" />
+
+    <link rel="stylesheet" href="https://cdn.lineicons.com/4.0/lineicons.css" />
+    <link rel="stylesheet" href="./styles/global-header.css" />
+    <link rel="stylesheet" href="./styles/messages.css">
+
+    <link rel="stylesheet" href="./styles/global-footer.css">
+    <link rel="stylesheet" href="./styles/inpage-search.css">
+    <link rel="stylesheet" href="./styles/utilities.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.png">
+</head>
+
+<body>
+    <!-- Header block -->
+    <header class="header flex-center">
+      <div class="header-wrapper flex">
+        <div class="header-logo-wrapper">
+          <a href="#" class="logo-link">
+            <img
+              class="logo-img"
+              src="./images/logo/png/logo-no-background.png"
+              alt="website logo"
+            />
+          </a>
+        </div>
+        <nav class="header--nav flex">
+          <ul class="header--nav-links-wrapper flex m-0">
+            <li class="header--nav-link active">
+              <a href="/index.html">Home</a>
+            </li>
+            <li class="header--nav-link">
+              <a href="/index.html">Mentorship</a>
+            </li>
+            <li class="header--nav-link"><a href="/blogs.html">Blogs</a></li>
+          </ul>
+        </nav>
+        <search class="header--search">
+          <form class="header--search-form w-100">
+            <div class="header--search-form-wrapper flex">
+              <img
+                width="18"
+                src="./images/icons/search.svg"
+                alt="search icon"
+              />
+              <input
+                name="global-search"
+                id="global-search"
+                placeholder="Search Kodmentor"
+                class="header--search-form-input w-100"
+              />
+              <div class="header--search-dropdown">
+                <p></p>
+                <button class="header--search-dropdown-btn" type="button">
+                  Ask A Question
+                </button>
+              </div>
+            </div>
+          </form>
+        </search>
+        <ul class="header--profile-section flex m-0">
+          <li class="header--profile-section-item" hidden>
+            <div class="header--profile-section-item-wrapper">
+              <button class="header--profile-section-item-btn">
+                <img
+                  src="./images/profile Avater.jpg"
+                  alt="profile picture"
+                  class="img-rounded"
+                  width="18"
+                />
+                <span>Me <i class="lni lni-chevron-down"></i></span>
+              </button>
+
+              <div hidden></div>
+            </div>
+          </li>
+
+
+          <li class="header--profile-section-item">
+            <div class="header--profile-section-item-wrapper">
+             
+                <a class="header--profile-section-item-btn"  href="/messages.html">
+                  <img
+                    src="./images/icons/messaging.svg"
+                    alt="messages icon"
+                    class="img-rounded"
+                    width="18"
+                  />
+                  <span>Messages</span>
+                </a>
+              
+            </div>
+          </li>
+          <li class="header--profile-section-item">
+              <div class="header--profile-section-item-wrapper">
+               
+                  <a class="header--profile-section-item-btn"  href="/login.html">
+                    <img
+                      src="./images/icons/login.svg"
+                      alt="messages icon"
+                      class="img-rounded"
+                      width="18"
+                    />
+                    <span>Login</span>
+                  </a>
+                
+              </div>
+            </li>
+
+            <li class="header--profile-section-item">
+              <div class="header--profile-section-item-wrapper">
+               
+                  <a class="header--profile-section-item-btn"  href="/signup.html">
+                    <img
+                      src="./images/icons/signup.svg"
+                      alt="messages icon"
+                      class="img-rounded"
+                      width="18"
+                    />
+                    <span>Signup</span>
+                  </a>
+                
+              </div>
+            </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+
+        <main class="messages-main flex">
+            
+                <ul class="message-sender flex">
+                    <h4 class="message-sender--header">Messages</h3>
+                      <li class="message-sender--item">
+                        <a href="#" class="message-sender--item-a">
+                          <div class="message-sender--item-a-wrapper flex">
+                            <div class="message-sender--item-a-img-wrapper">
+                              <img class="message-sender--item-a-img img-rounded" src="./images/mentor1.jpg" alt="mentor profile" />
+                            </div>
+                            <p class="message-sender--item-a-description m-0">
+                              <span class="message-sender--item-a-description-name">John Snow</span>
+                              <span class="message-sender--item-a-description-bio">
+                                Java Expert
+                              </span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+            
+                      <li class="message-sender--item">
+                        <a href="#" class="message-sender--item-a">
+                          <div class="message-sender--item-a-wrapper flex">
+                            <div class="message-sender--item-a-img-wrapper">
+                              <img class="message-sender--item-a-img img-rounded" src="./images/mentor2.jpg" alt="mentor profile" />
+                            </div>
+                            <p class="message-sender--item-a-description m-0">
+                              <span class="message-sender--item-a-description-name">John Snow</span>
+                              <span class="message-sender--item-a-description-bio">
+                               Javascript Expert
+                              </span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="message-sender--item">
+                        <a href="#" class="message-sender--item-a">
+                          <div class="message-sender--item-a-wrapper flex">
+                            <div class="message-sender--item-a-img-wrapper">
+                              <img class="message-sender--item-a-img img-rounded" src="./images/mentor4.jpg" alt="mentor profile" />
+                            </div>
+                            <p class="message-sender--item-a-description m-0">
+                              <span class="message-sender--item-a-description-name">John Snow</span>
+                              <span class="message-sender--item-a-description-bio">
+                                PHP Expert
+                              </span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                      <li class="message-sender--item">
+                        <a href="#" class="message-sender--item-a">
+                          <div class="message-sender--item-a-wrapper flex">
+                            <div class="message-sender--item-a-img-wrapper">
+                              <img class="message-sender--item-a-img img-rounded" src="./images/mentor5.jpg" alt="mentor profile" />
+                            </div>
+                            <p class="message-sender--item-a-description m-0">
+                              <span class="message-sender--item-a-description-name">John Snow</span>
+                              <span class="message-sender--item-a-description-bio">
+                               HTML CSS Expert
+                              </span>
+                            </p>
+                          </div>
+                        </a>
+                      </li>
+                  </ul>
+                  <!-- Charts combine start-->
+                  <div class="chats-profile-wrapper">
+                    <div class="message-sender-wrapper flex">
+                      <div class="message-sender-img-wrapper">
+                        <img class="message-sender-img img-rounded" src="./images/mentor1.jpg" alt="mentor profile" />
+                      </div>
+                      <p class="message-sender-description m-0">
+                        <span class="message-sender-description-name">John Snow</span>
+                        <span class="message-sender-description-bio">
+                          Java Expert
+                        </span>
+                      </p>
+                    </div>
+                    <!-- start of chats-->
+                    <div class="messages-chats-wrapper">
+                    
+                      <ul class="messages-chats-ul">
+                        <li class="messages-chats-ul--li self">
+                            <p class="messages-chats-ul--li-p flex-column">
+                                <span>Hey Jordan, are you free this weekend? I was thinking we could go hiking</span>
+                                <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                            </p>
+                        </li>
+                        <li class="messages-chats-ul--li incoming">
+                            <p class="messages-chats-ul--li-p flex-column ">
+                                <span>Hey Alex! That sounds like a great idea. I've been itching to get out and do something active. Where do you have in mind?</span>
+                                <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                            </p>
+                        </li>
+                        <li class="messages-chats-ul--li self">
+                          <p class="messages-chats-ul--li-p flex-column ">
+                              <span>I was looking at the Maple Ridge trail. It's about a 7-mile loop with some really nice views and a waterfall halfway through.</span>
+                              <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                          </p>
+                      </li>
+  
+                      <li class="messages-chats-ul--li incoming">
+                        <p class="messages-chats-ul--li-p flex-column ">
+                            <span>Maple Ridge sounds perfect. I've heard good things about that trail. How's the difficulty level?</span>
+                            <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                        </p>
+                    </li>
+  
+                    <li class="messages-chats-ul--li self">
+                      <p class="messages-chats-ul--li-p flex-column ">
+                          <span>t's rated as moderate. There are a few steep sections, but nothing too crazy. I think it'll be a good challenge.</span>
+                          <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                      </p>
+                  </li>
+                  <li class="messages-chats-ul--li incoming">
+                    <p class="messages-chats-ul--li-p flex-column ">
+                        <span>Awesome. What time were you thinking of starting? I usually like to get an early start to avoid the midday heat.</span>
+                        <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                    </p>
+                </li>
+  
+                <li class="messages-chats-ul--li self">
+                  <p class="messages-chats-ul--li-p flex-column ">
+                      <span>Yeah, me too. How about we meet at the trailhead at 7 AM? That should give us plenty of time to enjoy the hike without rushing.</span>
+                      <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                  </p>
+              </li>
+  
+              <li class="messages-chats-ul--li incoming">
+                <p class="messages-chats-ul--li-p flex-column ">
+                    <span>Sounds good to me. What should I bring? I assume the usual hiking gear?</span>
+                    <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+                </p>
+            </li>
+  
+            <li class="messages-chats-ul--li self">
+              <p class="messages-chats-ul--li-p flex-column ">
+                  <span>Yup, the usual gear. Comfortable hiking shoes, a hat, sunscreen, and plenty of water. Maybe a light jacket in case it gets chilly. Oh, and don't forget some snacks or a packed lunch.</span>
+                  <small><time datetime="2008-02-14 20:00"> 3/05/2024 5:01 pm</time></small>
+              </p>
+          </li>
+                      </ul>
+                      <div class="messages-chat-send-wrapper">
+                        <textarea rows="5" cols="8"></textarea>
+                        <div class="messages-chat-send-actions-wrapper flex">
+                          <ul class="messages-chat-btns-wrapper flex">
+                            <li><button type="button"><img height="24" width="24" src="./images/icons/attach-image.svg"></button></li>
+                            <li><button type="button"><img height="24" width="24" src="./images/icons/attachments.svg"></button></li>
+                          
+                          </ul>
+                          <button class="send-message btn btn-md btn-primary">Send</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  
+                 
+
+            
+        </main>
+
+    </div>
+    <!-- Site footer -->
+    
+
+</body>
+
+</html>
