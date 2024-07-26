@@ -16,130 +16,100 @@
     <link rel="stylesheet" href="./styles/global-footer.css">
     <link rel="stylesheet" href="./styles/inpage-search.css">
     <link rel="stylesheet" href="./styles/utilities.css" />
-    <link rel="icon" type="image/x-icon" href="/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
 </head>
 
 <body>
     <!-- Header block -->
     <header class="header flex-center">
         <div class="header-wrapper flex">
-          <div class="header-logo-wrapper">
-            <a href="#" class="logo-link">
-              <img
-                class="logo-img"
-                src="./images/logo/png/logo-no-background.png"
-                alt="website logo"
-              />
-            </a>
-          </div>
-          <nav class="header--nav flex">
-            <ul class="header--nav-links-wrapper flex m-0">
-              <li class="header--nav-link active">
-                <a href="/index.html">Home</a>
-              </li>
-              <li class="header--nav-link">
-                <a href="/index.html">Mentorship</a>
-              </li>
-              <li class="header--nav-link"><a href="/blogs.html">Blogs</a></li>
-            </ul>
-          </nav>
-          <search class="header--search">
-            <form class="header--search-form w-100">
-              <div class="header--search-form-wrapper flex">
-                <img
-                  width="18"
-                  src="./images/icons/search.svg"
-                  alt="search icon"
-                />
-                <input
-                  name="global-search"
-                  id="global-search"
-                  placeholder="Search Kodmentor"
-                  class="header--search-form-input w-100"
-                />
-                <div class="header--search-dropdown">
-                  <p></p>
-                  <button class="header--search-dropdown-btn" type="button">
-                    Ask A Question
-                  </button>
-                </div>
-              </div>
-            </form>
-          </search>
-          <ul class="header--profile-section flex m-0">
-            <li class="header--profile-section-item" hidden>
-              <div class="header--profile-section-item-wrapper">
-                <button class="header--profile-section-item-btn">
-                  <img
-                    src="./images/profile Avater.jpg"
-                    alt="profile picture"
-                    class="img-rounded"
-                    width="18"
-                  />
-                  <span>Me <i class="lni lni-chevron-down"></i></span>
-                </button>
-  
-                <div hidden></div>
-              </div>
-            </li>
-  
-  
-            <li class="header--profile-section-item">
-              <div class="header--profile-section-item-wrapper">
-               
-                  <a class="header--profile-section-item-btn"  href="/messages.html">
-                    <img
-                      src="./images/icons/messaging.svg"
-                      alt="messages icon"
-                      class="img-rounded"
-                      width="18"
-                    />
-                    <span>Messages</span>
-                  </a>
-                
-              </div>
-            </li>
-            <li class="header--profile-section-item">
-                <div class="header--profile-section-item-wrapper">
-                 
-                    <a class="header--profile-section-item-btn"  href="/login.html">
-                      <img
-                        src="./images/icons/login.svg"
-                        alt="messages icon"
-                        class="img-rounded"
-                        width="18"
-                      />
-                      <span>Login</span>
-                    </a>
-                  
-                </div>
-              </li>
+            <div class="header-logo-wrapper">
+                <a href="#" class="logo-link">
+                    <img class="logo-img" src="./images/logo/png/logo-no-background.png" alt="website logo" />
+                </a>
+            </div>
+            <nav class="header--nav flex">
+                <ul class="header--nav-links-wrapper flex m-0">
+                    <li class="header--nav-link active">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li class="header--nav-link">
+                        <a href="./index.html">Mentorship</a>
+                    </li>
+                    <li class="header--nav-link"><a href="./blogs.html">Blogs</a></li>
+                </ul>
+            </nav>
+            <search class="header--search">
+                <form class="header--search-form w-100">
+                    <div class="header--search-form-wrapper flex">
+                        <img width="18" src="./images/icons/search.svg" alt="search icon" />
+                        <input name="global-search" id="global-search" placeholder="Search Kodmentor"
+                            class="header--search-form-input w-100" />
+                        <div class="header--search-dropdown">
+                            <p></p>
+                            <button class="header--search-dropdown-btn" type="button">
+                                Ask A Question
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </search>
+            <ul class="header--profile-section flex m-0">
+                <li class="header--profile-section-item" hidden>
+                    <div class="header--profile-section-item-wrapper">
+                        <button class="header--profile-section-item-btn">
+                            <img src="./images/profile Avater.jpg" alt="profile picture" class="img-rounded"
+                                width="18" />
+                            <span>Me <i class="lni lni-chevron-down"></i></span>
+                        </button>
 
-              <li class="header--profile-section-item">
-                <div class="header--profile-section-item-wrapper">
-                 
-                    <a class="header--profile-section-item-btn"  href="/signup.html">
-                      <img
-                        src="./images/icons/signup.svg"
-                        alt="messages icon"
-                        class="img-rounded"
-                        width="18"
-                      />
-                      <span>Signup</span>
-                    </a>
-                  
-                </div>
-              </li>
-          </ul>
+                        <div hidden></div>
+                    </div>
+                </li>
+
+
+                <li class="header--profile-section-item">
+                    <div class="header--profile-section-item-wrapper">
+
+                        <a class="header--profile-section-item-btn" href="./messages.html">
+                            <img src="./images/icons/messaging.svg" alt="messages icon" class="img-rounded"
+                                width="18" />
+                            <span>Messages</span>
+                        </a>
+
+                    </div>
+                </li>
+                <li class="header--profile-section-item">
+                    <div class="header--profile-section-item-wrapper">
+
+                        <a class="header--profile-section-item-btn" href="./login.html">
+                            <img src="./images/icons/login.svg" alt="messages icon" class="img-rounded" width="18" />
+                            <span>Login</span>
+                        </a>
+
+                    </div>
+                </li>
+
+                <li class="header--profile-section-item">
+                    <div class="header--profile-section-item-wrapper">
+
+                        <a class="header--profile-section-item-btn" href="./signup.html">
+                            <img src="./images/icons/signup.svg" alt="messages icon" class="img-rounded" width="18" />
+                            <span>Signup</span>
+                        </a>
+
+                    </div>
+                </li>
+            </ul>
         </div>
-      </header>
+    </header>
 
     <div class="container">
 
         <aside class="left-panel">
             <ul class="left-panel-top-nav">
                 <li class="left-panel-top-nav--item">
-                    <a href="/index.html" class="left-panel-top-nav--item-a">
+                    <a href="./index.html" class="left-panel-top-nav--item-a">
                         <div class="left-panel-top-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/home.svg" alt="home icon"
                                 class="left-panel-top-nav--item-img" />
@@ -147,9 +117,9 @@
                         </div>
                     </a>
                 </li>
-              
+
                 <li class="left-panel-top-nav--item">
-                    <a href="/questions.html" class="left-panel-top-nav--item-a">
+                    <a href="./questions.html" class="left-panel-top-nav--item-a">
                         <div class="left-panel-top-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/question.png" alt="home icon"
                                 class="left-panel-top-nav--item-img" />
@@ -158,7 +128,7 @@
                     </a>
                 </li>
                 <li class="left-panel-top-nav--item">
-                    <a href="/blogs.html" class="left-panel-top-nav--item-a">
+                    <a href="./blogs.html" class="left-panel-top-nav--item-a">
                         <div class="left-panel-top-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/blogger.png" alt="home icon"
                                 class="left-panel-top-nav--item-img" />
@@ -166,9 +136,9 @@
                         </div>
                     </a>
                 </li>
-              
+
                 <li class="left-panel-top-nav--item">
-                    <a href="/users.html" class="left-panel-top-nav--item-a">
+                    <a href="./users.html" class="left-panel-top-nav--item-a">
                         <div class="left-panel-top-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/group.png" alt="home icon"
                                 class="left-panel-top-nav--item-img" />
@@ -177,7 +147,7 @@
                     </a>
                 </li>
                 <li class="left-panel-top-nav--item">
-                    <a href="connections.html" class="left-panel-top-nav--item-a">
+                    <a href="./connections.html" class="left-panel-top-nav--item-a">
                         <div class="left-panel-top-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/connection.png" alt="home icon"
                                 class="left-panel-top-nav--item-img" />
@@ -186,9 +156,9 @@
                     </a>
                 </li>
             </ul>
-            <ul class="left-panel-bottom-nav flex">
+            <!-- <ul class="left-panel-bottom-nav flex">
                 <li class="left-panel-bottom-nav--item">
-                    <a href="/settings.html" class="left-panel-bottom-nav--item-a">
+                    <a href="./settings.html" class="left-panel-bottom-nav--item-a">
                         <div class="left-panel-bottom-nav--item-a-wrapper flex">
                             <img width="18" src="./images/icons/settings.png" alt="home icon"
                                 class="left-panel-bottom-nav--item-img" />
@@ -205,32 +175,29 @@
                         </div>
                     </a>
                 </li>
-            </ul>
+            </ul> -->
         </aside>
 
         <main class="main-content">
-
-
-                <div class="connections-top-filter">
-                    <div class="connections-top-filter--div">
-                        <input class="connections-category" type="radio" id="html" name="fav_language" value="HTML"
-                            checked>
-                        <label for="html">Top Users</label><br>
-                    </div>
-
-                    <div class="connections-top-filter--div">
-                        <input class="connections-category" type="radio" id="css" name="fav_language" value="CSS">
-                        <label for="css">Questions Answered</label>
-                    </div>
-
-                    <div class="connections-top-filter--div">
-                        <input class="connections-category" type="radio" id="javascript" name="fav_language"
-                            value="JavaScript">
-                        <label for="javascript">Mentors</label>
-                    </div>
-
-
+            <div class="connections-top-filter">
+                <div class="connections-top-filter--div">
+                    <input class="connections-category" type="radio" id="html" name="fav_language" value="HTML" checked>
+                    <label for="html">Top Users</label><br>
                 </div>
+
+                <div class="connections-top-filter--div">
+                    <input class="connections-category" type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">Questions Answered</label>
+                </div>
+
+                <div class="connections-top-filter--div">
+                    <input class="connections-category" type="radio" id="javascript" name="fav_language"
+                        value="JavaScript">
+                    <label for="javascript">Mentors</label>
+                </div>
+
+
+            </div>
 
             </section>
             <h4 class="connections-title">Users</h4>
