@@ -8,7 +8,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: var(--s-full);
+  width: 100%;
   margin: 0 auto;
 }
 
